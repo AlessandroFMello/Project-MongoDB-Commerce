@@ -3,4 +3,5 @@ db.produtos
     {
       $and: [{ curtidas: { $gt: 10 } }, { curtidas: { $lt: 100 } }],
     },
-    { nome: 1, curtidas: 1, _id: 0 });
+    { nome: 1, curtidas: 1, _id: 0 },
+    );
